@@ -25,12 +25,13 @@
 var NAVTREE =
 [
   [ "Memory Game", "index.html", [
-    [ "Описание", "index.html#autotoc_md1", null ],
-    [ "Функционал", "index.html#autotoc_md2", null ],
-    [ "Установка и сборка", "index.html#autotoc_md3", [
-      [ "Требования", "index.html#autotoc_md4", null ],
-      [ "Сборка", "index.html#autotoc_md5", null ]
+    [ "Основные возможности", "index.html#autotoc_md1", null ],
+    [ "Правила игры", "index.html#autotoc_md2", null ],
+    [ "Технические требования", "index.html#autotoc_md3", [
+      [ "Необходимые ресурсы:", "index.html#autotoc_md4", null ],
+      [ "Поддерживаемые форматы:", "index.html#autotoc_md5", null ]
     ] ],
+    [ "Технологии", "index.html#autotoc_md6", null ],
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", "namespaces_dup" ],
       [ "Namespace Members", "namespacemembers.html", [
@@ -83,10 +84,10 @@ var NAVTREEINDEX =
 "gmock-more-actions_8h.html#a4440fd8222dde30e41f05209f06a2d00",
 "gmock__link__test_8h.html#adac5a0d25e665298c61d73103f6b4ef6",
 "gtest_8h.html#ad4e384f417913ba365e281fcd561b6cc",
-"namespacetesting_1_1internal.html#a32051e2574562b548be3e26a52eaa553",
-"namespacetesting_1_1internal_1_1edit__distance.html#ad46aa6da12aec1a3f166310478b53a08a814768ef6cd0264a0a10b1e701a63e78",
-"structtesting_1_1internal_1_1_flat_tuple_elem_base_3_01_flat_tuple_3_01_t_8_8_8_01_4_00_01_i_01_4.html#ac0be5571ecb617d8218f67a6fbfe9c30",
-"structtesting_1_1internal_1_1_suite_api_resolver.html"
+"namespacetesting_1_1internal.html#a31b7c3abed4a7c395f42c61e993989f4",
+"namespacetesting_1_1internal_1_1edit__distance.html#ad46aa6da12aec1a3f166310478b53a08a7bdb9c74613a94f21b7489e0b5640a63",
+"structtesting_1_1internal_1_1_flat_tuple_elem_base_3_01_flat_tuple_3_01_t_8_8_8_01_4_00_01_i_01_4.html#a929800f64f800bbd6d18dab0bf84e467",
+"structtesting_1_1internal_1_1_set_array_argument_action.html#a79b1b44f5838949c0162de4b74b68fe3"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';
