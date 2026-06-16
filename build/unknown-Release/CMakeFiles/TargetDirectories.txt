@@ -1,9 +1,0 @@
-C:/Users/Влада/Documents/newproject/build/unknown-Release/CMakeFiles/MemoryGame.dir
-C:/Users/Влада/Documents/newproject/build/unknown-Release/CMakeFiles/tests.dir
-C:/Users/Влада/Documents/newproject/build/unknown-Release/CMakeFiles/test.dir
-C:/Users/Влада/Documents/newproject/build/unknown-Release/CMakeFiles/edit_cache.dir
-C:/Users/Влада/Documents/newproject/build/unknown-Release/CMakeFiles/rebuild_cache.dir
-C:/Users/Влада/Documents/newproject/build/unknown-Release/CMakeFiles/MemoryGame_autogen_timestamp_deps.dir
-C:/Users/Влада/Documents/newproject/build/unknown-Release/CMakeFiles/MemoryGame_autogen.dir
-C:/Users/Влада/Documents/newproject/build/unknown-Release/CMakeFiles/tests_autogen_timestamp_deps.dir
-C:/Users/Влада/Documents/newproject/build/unknown-Release/CMakeFiles/tests_autogen.dir

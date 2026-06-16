@@ -1,6 +1,0 @@
-set(__QT_DEPLOY_TARGET_MemoryGame_FILE C:/Users/Влада/Documents/newproject/build/unknown-Release/MemoryGame.exe)
-set(__QT_DEPLOY_TARGET_MemoryGame_TYPE EXECUTABLE)
-set(__QT_DEPLOY_TARGET_MemoryGame_RUNTIME_DLLS C:/Qt/Qt/6.10.2/msvc2022_64/bin/Qt6Core.dll;C:/Qt/Qt/6.10.2/msvc2022_64/bin/Qt6Widgets.dll;C:/Qt/Qt/6.10.2/msvc2022_64/bin/Qt6Gui.dll)
-set(__QT_DEPLOY_TARGET_tests_FILE C:/Users/Влада/Documents/newproject/build/unknown-Release/tests.exe)
-set(__QT_DEPLOY_TARGET_tests_TYPE EXECUTABLE)
-set(__QT_DEPLOY_TARGET_tests_RUNTIME_DLLS C:/Qt/Qt/6.10.2/msvc2022_64/bin/Qt6Core.dll)
