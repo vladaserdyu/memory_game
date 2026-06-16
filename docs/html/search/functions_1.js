@@ -1,0 +1,14 @@
+var searchData=
+[
+  ['backtomenu_0',['backToMenu',['../class_game_board.html#a16cf041e9404ec610b7e0226589de93a',1,'GameBoard']]],
+  ['base64unescape_1',['Base64Unescape',['../namespacetesting_1_1internal.html#a7ebfee596839f25b8aec40192af1dcdc',1,'testing::internal']]],
+  ['basegenerator_2',['BaseGenerator',['../classtesting_1_1internal_1_1_param_iterator_interface.html#a717c299a43b4db6c85b94b827276b8a1',1,'testing::internal::ParamIteratorInterface::BaseGenerator()'],['../classtesting_1_1internal_1_1_range_generator_1_1_iterator.html#a2c601d710f4c5dd87caaad40e4fca813',1,'testing::internal::RangeGenerator::Iterator::BaseGenerator()'],['../classtesting_1_1internal_1_1_values_in_iterator_range_generator_1_1_iterator.html#abd03050f1b7a526bfaa6b71b6de61392',1,'testing::internal::ValuesInIteratorRangeGenerator::Iterator::BaseGenerator()'],['../classtesting_1_1internal_1_1_cartesian_product_generator_1_1_iterator_impl_3_01_index_sequence_3_01_i_8_8_8_01_4_01_4.html#a0262bcb7fabcc60246163af93b7b95e4',1,'testing::internal::CartesianProductGenerator::IteratorImpl&lt; IndexSequence&lt; I... &gt; &gt;::BaseGenerator()']]],
+  ['begin_3',['Begin',['../classtesting_1_1internal_1_1_param_generator_interface.html#adcb074da01e5fac94fcbbc3aee629978',1,'testing::internal::ParamGeneratorInterface::Begin()'],['../classtesting_1_1internal_1_1_range_generator.html#aa3e9359b2313748d31e19782de47bf53',1,'testing::internal::RangeGenerator::Begin()'],['../classtesting_1_1internal_1_1_values_in_iterator_range_generator.html#aa3dc4b6972cfc8a5912e00826062a1e7',1,'testing::internal::ValuesInIteratorRangeGenerator::Begin()'],['../classtesting_1_1internal_1_1_cartesian_product_generator.html#a1810e0712b9b98c9f724a8fbfbe5ece3',1,'testing::internal::CartesianProductGenerator::Begin()']]],
+  ['begin_4',['begin',['../classtesting_1_1internal_1_1_native_array.html#a3046d93cfa23097e7b7c91f5f982dc78',1,'testing::internal::NativeArray::begin()'],['../classtesting_1_1internal_1_1_param_generator.html#a14e735c8bd113556ae905a560cd2d607',1,'testing::internal::ParamGenerator::begin()']]],
+  ['bits_5',['bits',['../classtesting_1_1internal_1_1_floating_point.html#aed49c6dadf8dff4f65fbebef29bb1ae9',1,'testing::internal::FloatingPoint']]],
+  ['bool_6',['Bool',['../namespacetesting.html#a1a0ebe4f77126fb464a8286ce6389bb9',1,'testing']]],
+  ['boolfromgtestenv_7',['BoolFromGTestEnv',['../namespacetesting_1_1internal.html#a67132cdce23fb71b6c38ee34ef81eb4c',1,'testing::internal']]],
+  ['bymove_8',['ByMove',['../namespacetesting.html#a38293837852ef2c406b063741018d108',1,'testing']]],
+  ['bymovewrapper_9',['ByMoveWrapper',['../structtesting_1_1internal_1_1_by_move_wrapper.html#a60df33395785e0bfc5f72fba32376349',1,'testing::internal::ByMoveWrapper']]],
+  ['byref_10',['ByRef',['../namespacetesting.html#a36843a208feed24c25663fbd331db103',1,'testing']]]
+];

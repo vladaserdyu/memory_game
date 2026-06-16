@@ -1,0 +1,8 @@
+MemoryGameTests 1 0.0898565
+MinMoves 1 0.0881309
+MaxMoves 1 0.0219865
+Match 1 0.0253953
+Generate 1 0.0247766
+Edge 1 0.0249952
+MemoryGameTest 1 0.0491295
+---
