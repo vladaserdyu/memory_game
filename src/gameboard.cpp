@@ -77,7 +77,7 @@ void CardButton::flip(bool flipped)
 {
     if (m_matched) return;
     m_flipped = flipped;
-    if (flipped && m_value >= 0) {
+    if (flipped) {
         setIcon(getImageForValue(m_value));
         setIconSize(size());
     } else {
@@ -163,7 +163,6 @@ void GameBoard::startNewGame(int gridSize)
         case 4: setFixedSize(550, 600); break;
         case 6: setFixedSize(700, 750); break;
         case 8: setFixedSize(850, 900); break;
-        default: setFixedSize(550, 600);
     }
 
     initGame(gridSize);
@@ -266,9 +265,14 @@ void GameBoard::createCards(int size)
 void GameBoard::shuffleCards()
 {
     try {
-        for (int i = m_cardValues.size() - 1; i > 0; --i) {
-            int j = QRandomGenerator::global()->bounded(i + 1);
-            m_cardValues.swapItemsAt(i, j);
+        int n = m_cardValues.size();
+
+        for (int i = 0; i < n * 2; ++i) {
+            int a = rand() % n;
+            int b = rand() % n;
+            int temp = m_cardValues[a];
+            m_cardValues[a] = m_cardValues[b];
+            m_cardValues[b] = temp;
         }
 
         for (int i = 0; i < m_cards.size(); ++i) {
@@ -353,7 +357,7 @@ void GameBoard::saveRecord()
 {
     try {
         QFile file("records.txt");
-        if (!file.open(QIODevice::Append | QIODevice::Text)) {
+        if (!file.open(QIODevice::Append)) {
             throw std::runtime_error("Не удалось открыть файл records.txt");
         }
         QTextStream out(&file);
@@ -369,8 +373,6 @@ void GameBoard::saveRecord()
 void GameBoard::endGame()
 {
     stopGame();
-
-    int totalPairs = calcMinMoves(m_gridSize);
     int minMoves = calcMinMoves(m_gridSize);
     int maxMoves = calcMaxMoves(m_gridSize);
 

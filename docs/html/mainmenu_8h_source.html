@@ -92,45 +92,44 @@ $(function(){initNavTree('mainmenu_8h_source.html','',''); });
   <div class="headertitle"><div class="title">mainmenu.h</div></div>
 </div><!--header-->
 <div class="contents">
-<a href="mainmenu_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span> </div>
-<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span>```cpp</div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#ifndef MAINMENU_H</span></div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#define MAINMENU_H</span></div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#include &lt;QWidget&gt;</span></div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="preprocessor">#include &lt;QPushButton&gt;</span></div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="preprocessor">#include &lt;QLabel&gt;</span></div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="preprocessor">#include &lt;QVBoxLayout&gt;</span></div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="preprocessor">#include &lt;QLineEdit&gt;</span></div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span></div>
-<div class="foldopen" id="foldopen00026" data-start="{" data-end="};">
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="class_main_menu.html">   26</a></span>    <span class="keyword">class </span><a class="code hl_function" href="class_main_menu.html#a891bed1e0edb5492671c332cb89b7a9a">MainMenu</a> : <span class="keyword">public</span> QWidget</div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>{</div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    Q_OBJECT</div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>   <span class="keyword">public</span>:</div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno"><a class="line" href="class_main_menu.html#a891bed1e0edb5492671c332cb89b7a9a">   35</a></span>    <span class="keyword">explicit</span> <a class="code hl_function" href="class_main_menu.html#a891bed1e0edb5492671c332cb89b7a9a">MainMenu</a>(QWidget *parent = <span class="keyword">nullptr</span>);</div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span> </div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>   signals:</div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno"><a class="line" href="class_main_menu.html#aa657f8880ef700db38835dad9c18f1e3">   42</a></span>    <span class="keywordtype">void</span> <a class="code hl_signal" href="class_main_menu.html#aa657f8880ef700db38835dad9c18f1e3">gameSelected</a>(<span class="keywordtype">int</span> gridSize);</div>
+<a href="mainmenu_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#ifndef MAINMENU_H</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#define MAINMENU_H</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &lt;QWidget&gt;</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#include &lt;QPushButton&gt;</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#include &lt;QLabel&gt;</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#include &lt;QVBoxLayout&gt;</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#include &lt;QLineEdit&gt;</span></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span></div>
+<div class="foldopen" id="foldopen00022" data-start="{" data-end="};">
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="class_main_menu.html">   22</a></span>    <span class="keyword">class </span><a class="code hl_function" href="class_main_menu.html#a891bed1e0edb5492671c332cb89b7a9a">MainMenu</a> : <span class="keyword">public</span> QWidget</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>{</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>    Q_OBJECT</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span> </div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>   <span class="keyword">public</span>:</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno"><a class="line" href="class_main_menu.html#a891bed1e0edb5492671c332cb89b7a9a">   31</a></span>    <span class="keyword">explicit</span> <a class="code hl_function" href="class_main_menu.html#a891bed1e0edb5492671c332cb89b7a9a">MainMenu</a>(QWidget *parent = <span class="keyword">nullptr</span>);</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>   signals:</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="class_main_menu.html#aa657f8880ef700db38835dad9c18f1e3">   38</a></span>    <span class="keywordtype">void</span> <a class="code hl_signal" href="class_main_menu.html#aa657f8880ef700db38835dad9c18f1e3">gameSelected</a>(<span class="keywordtype">int</span> gridSize);</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>   <span class="keyword">private</span> slots:</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno"><a class="line" href="class_main_menu.html#aea1b1726c0ecb4dcd22ce62ffd47f302">   42</a></span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="class_main_menu.html#aea1b1726c0ecb4dcd22ce62ffd47f302">onStartClicked</a>();</div>
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span> </div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>   <span class="keyword">private</span> slots:</div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno"><a class="line" href="class_main_menu.html#aea1b1726c0ecb4dcd22ce62ffd47f302">   46</a></span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="class_main_menu.html#aea1b1726c0ecb4dcd22ce62ffd47f302">onStartClicked</a>();</div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span> </div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>   <span class="keyword">private</span>:</div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno"><a class="line" href="class_main_menu.html#ab83cc92d2c98435424a5baab73ac31d7">   49</a></span>    QLineEdit* <a class="code hl_variable" href="class_main_menu.html#ab83cc92d2c98435424a5baab73ac31d7">m_sizeInput</a>;   </div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno"><a class="line" href="class_main_menu.html#a890da9894f24f256bb28660947bbed72">   50</a></span>    QPushButton* <a class="code hl_variable" href="class_main_menu.html#a890da9894f24f256bb28660947bbed72">m_startBtn</a>;  </div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno"><a class="line" href="class_main_menu.html#a091ec0190c15f7c5be06846c70e3a87a">   51</a></span>    QLabel* <a class="code hl_variable" href="class_main_menu.html#a091ec0190c15f7c5be06846c70e3a87a">m_titleLabel</a>;     </div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>};</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>   <span class="keyword">private</span>:</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno"><a class="line" href="class_main_menu.html#ab83cc92d2c98435424a5baab73ac31d7">   45</a></span>    QLineEdit* <a class="code hl_variable" href="class_main_menu.html#ab83cc92d2c98435424a5baab73ac31d7">m_sizeInput</a>;   </div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno"><a class="line" href="class_main_menu.html#a890da9894f24f256bb28660947bbed72">   46</a></span>    QPushButton* <a class="code hl_variable" href="class_main_menu.html#a890da9894f24f256bb28660947bbed72">m_startBtn</a>;  </div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno"><a class="line" href="class_main_menu.html#a091ec0190c15f7c5be06846c70e3a87a">   47</a></span>    QLabel* <a class="code hl_variable" href="class_main_menu.html#a091ec0190c15f7c5be06846c70e3a87a">m_titleLabel</a>;     </div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>};</div>
 </div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span> </div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span><span class="preprocessor">#endif</span></div>
-<div class="ttc" id="aclass_main_menu_html_a091ec0190c15f7c5be06846c70e3a87a"><div class="ttname"><a href="class_main_menu.html#a091ec0190c15f7c5be06846c70e3a87a">MainMenu::m_titleLabel</a></div><div class="ttdeci">QLabel * m_titleLabel</div><div class="ttdoc">Заголовок &quot;MEMORY GAME&quot;.</div><div class="ttdef"><b>Definition</b> mainmenu.h:51</div></div>
-<div class="ttc" id="aclass_main_menu_html_a890da9894f24f256bb28660947bbed72"><div class="ttname"><a href="class_main_menu.html#a890da9894f24f256bb28660947bbed72">MainMenu::m_startBtn</a></div><div class="ttdeci">QPushButton * m_startBtn</div><div class="ttdoc">Кнопка &quot;Старт&quot;.</div><div class="ttdef"><b>Definition</b> mainmenu.h:50</div></div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span> </div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="aclass_main_menu_html_a091ec0190c15f7c5be06846c70e3a87a"><div class="ttname"><a href="class_main_menu.html#a091ec0190c15f7c5be06846c70e3a87a">MainMenu::m_titleLabel</a></div><div class="ttdeci">QLabel * m_titleLabel</div><div class="ttdoc">Заголовок &quot;MEMORY GAME&quot;.</div><div class="ttdef"><b>Definition</b> mainmenu.h:47</div></div>
+<div class="ttc" id="aclass_main_menu_html_a890da9894f24f256bb28660947bbed72"><div class="ttname"><a href="class_main_menu.html#a890da9894f24f256bb28660947bbed72">MainMenu::m_startBtn</a></div><div class="ttdeci">QPushButton * m_startBtn</div><div class="ttdoc">Кнопка &quot;Старт&quot;.</div><div class="ttdef"><b>Definition</b> mainmenu.h:46</div></div>
 <div class="ttc" id="aclass_main_menu_html_a891bed1e0edb5492671c332cb89b7a9a"><div class="ttname"><a href="class_main_menu.html#a891bed1e0edb5492671c332cb89b7a9a">MainMenu::MainMenu</a></div><div class="ttdeci">MainMenu(QWidget *parent=nullptr)</div><div class="ttdoc">Конструктор главного меню</div></div>
 <div class="ttc" id="aclass_main_menu_html_aa657f8880ef700db38835dad9c18f1e3"><div class="ttname"><a href="class_main_menu.html#aa657f8880ef700db38835dad9c18f1e3">MainMenu::gameSelected</a></div><div class="ttdeci">void gameSelected(int gridSize)</div><div class="ttdoc">Сигнал выбора уровня игры</div></div>
-<div class="ttc" id="aclass_main_menu_html_ab83cc92d2c98435424a5baab73ac31d7"><div class="ttname"><a href="class_main_menu.html#ab83cc92d2c98435424a5baab73ac31d7">MainMenu::m_sizeInput</a></div><div class="ttdeci">QLineEdit * m_sizeInput</div><div class="ttdoc">Поле для ввода размера</div><div class="ttdef"><b>Definition</b> mainmenu.h:49</div></div>
+<div class="ttc" id="aclass_main_menu_html_ab83cc92d2c98435424a5baab73ac31d7"><div class="ttname"><a href="class_main_menu.html#ab83cc92d2c98435424a5baab73ac31d7">MainMenu::m_sizeInput</a></div><div class="ttdeci">QLineEdit * m_sizeInput</div><div class="ttdoc">Поле для ввода размера</div><div class="ttdef"><b>Definition</b> mainmenu.h:45</div></div>
 <div class="ttc" id="aclass_main_menu_html_aea1b1726c0ecb4dcd22ce62ffd47f302"><div class="ttname"><a href="class_main_menu.html#aea1b1726c0ecb4dcd22ce62ffd47f302">MainMenu::onStartClicked</a></div><div class="ttdeci">void onStartClicked()</div><div class="ttdoc">Обработчик нажатия на кнопку &quot;Старт&quot;.</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

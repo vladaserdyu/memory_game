@@ -1,8 +1,6 @@
 /**
  * @file gameboard.h
  * @brief Игровое поле и карточки
- * @author Студент
- * @version 1.0
  * @date 2026
  */
 

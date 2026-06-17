@@ -1,10 +1,6 @@
-
-```cpp
 /**
  * @file mainmenu.h
  * @brief Главное меню игры
- * @author Студент
- * @version 1.0
  * @date 2026
  */
 
